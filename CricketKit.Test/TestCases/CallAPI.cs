@@ -16,7 +16,7 @@ namespace CricketKit.Test.TestCases
         {
             TestResults testResults = new TestResults();
             Dictionary<string, TestCaseResultDto> testCaseResults = new Dictionary<string, TestCaseResultDto>();
-            string customValue = System.IO.File.ReadAllText("../../../../custom.ih");
+            string customValue = System.IO.File.ReadAllText("../../../../../custom.ih");
             testResults.CustomData = customValue;
             int earnedScore = 0;
             String testStatus = "Failed";
